@@ -1,0 +1,19 @@
+body{
+  font-size: 20px;
+ border:2px solid black;
+  background-image:  url("../images/background.jpg");
+}
+ 
+h2{
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 10px;
+}
+
+#menu{
+	list-style-type:none;
+	font-size:18px;
+}
+
+#menu li{
+	display:inline;
+}

@@ -1,0 +1,220 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;;
+}
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	font-family: 'Flamenco', cursive;
+    background-color: rgba(221, 221, 221, 1);
+
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/babygirl.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	 height:120vh;
+	}
+    .row{
+    position: absolute;
+    margin-top: 20px;
+    display: block;
+  font-size:20px;
+  padding: 20px;
+  margin-left: 30px;
+ color:seashell;
+ text-shadow: 1px 1px 1px #af223c;
+ display: inline;
+ background-color: rgba(119,119,119,1);
+}
+  
+    
+   
+
+	.main-nav
+	{
+		float:right;
+		margin-top: 35px;
+	}
+    .main-nav li{
+    	display: inline;
+    	margin-left: 80px;
+        margin-right: 20px;
+    }
+
+    .main-nav li a{
+    	padding: 5px, 0;
+    	color: #fff;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	font-weight: 100;
+    	}
+
+    	.main-nav li a:hover{
+       border-bottom: 2px solid white;
+    	}
+
+    .main-content{
+    	width: 1180px;
+    	position: absolute;
+    	top:50%;
+    	left:50%;
+    	transform: translate(-25%,-50%);
+    }
+    h1{
+    	color:#fff;
+    	font-size: 250%;
+    	word-spacing: 2px;
+    	letter-spacing: 3px;
+    	margin-bottom: 20px;
+    	font-weight: lighter;
+    }
+   h2{
+      color:white;
+      font-size: 200%;
+      font-weight: lighter;
+   }
+
+    .btn{
+    	display:inline-block;
+    	padding:10px 40px;
+    	font-weight: lighter;
+    	text-decoration: none;
+    	border-radius: 250px;
+    	transition: background-color 0.2s, border 0.2s, color 0.2;
+    }
+    
+   
+    .button-one{
+    	display:inline-block;
+         color: white;
+    	background-color: transparent;
+    	border:1px solid orange;
+    	 }
+    	 .button-one:hover{
+    	background-color: yellow;
+    }
+    	  .button-two{
+    	display:inline-block;
+        color: white;
+    	background-color: transparent;
+    	border:1px solid blue;
+    	 }
+     .button-two:hover{
+    	background-color: blue;
+    }
+   
+     .info h1{
+        font-size: 20px;
+        padding:30px;
+        color:black;
+        text-align: center;
+        background-color: rgba(245, 245, 245, 1);
+
+     }
+     .info p{
+        text-align: center;
+        
+     }
+     .info h2{
+        text-align: center;
+       font-size: 30px;
+        font-family: "Times New Roman", Times, serif;
+        padding:20px;
+        color:black;
+         
+ }
+ .column{
+  margin-top: 10px;
+ margin-left: 15%;
+margin-right: 10px;
+}
+ 
+ .slideshow-container {
+  position: relative;
+  background: violet;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 120px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic; color: white;}
+
+/* Add a blue color to the author */
+.author {color: black;} 
+
+
+	/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    primary { width:67%; }
+    secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    primary { width:100%; }
+    secondary { width:100%; margin:0; border:none; }
+}
+   
+   

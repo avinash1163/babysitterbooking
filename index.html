@@ -1,0 +1,134 @@
+<!Doctype html>
+<html>
+<head>
+<title>Babbysitter </title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<Body>
+	<div>
+<header>
+<nav>
+	
+<div class="row">
+	
+<label> <span>Trusted sitter. com</span></label>
+</div>
+<div style= "float:right; margin-top:20px; margin-right:10px;">
+<a href="admin/index.php" class="btn button-two">Admin</a>
+</div>
+<ul class="main-nav">
+
+<li><a href="step.php">How it works</a></li>
+<li><a href="contactus.php">Contact Us</a></li>
+<li><a href="Aboutus.php">About Us</a></li>
+</ul>
+</div>
+</nav>
+
+<div class="main-content">
+	<h1> Need a trusted<br>
+ Babysitter?</h1>
+ <h2>Book Now</h2>
+ <a href="login.php" class="btn button-one">Log-in</a>
+<a href="registration.php" class="btn button-two">Sign-up</a>
+ </div>
+ </header>
+ 
+</div>
+			
+    <div class="info">
+                
+
+                     <h1>!!--Welcome To Trusted Babysitting--!!</h1>
+                    <p>
+                      We provide easy and efficient babysitting and home childcare services . At the heart of trusted sitter is the unique relationship between the family and babysitters. We understand that every child, every family, and every situation is different.
+
+</p>
+
+
+                 </div></br></br>
+                <div class="column">
+                  
+                  <img src = "images/parent1.jpg"  width = "300px" height = "250px" align="middle" margin-left="20px" />
+
+                
+                  <img src = "images/parent2.jpg"  width = "300px" height = "250px" align="middle" margin-left="20px"  />
+                
+                  <img src = "images/parents3.jpg" width = "300px" height = "250px" align="middle" margin-left="20px" />
+               
+                 </div> </br></br>
+                 <div class="slideshow-container">
+
+  <!-- Full-width slides/quotes -->
+  <div class="mySlides">
+    <q>We were very happy with Trusted babysitter, the kids were in good hands. You always send the best people. Thank you for providing a superior service.</q>
+    <p class="author">Asha, Indore</p>
+  </div>
+
+  <div class="mySlides">
+    <q>A professional and trustworthy Nanny agency, caring and efficient. The consultant understood my needs and provided me with a lovely Nanny that our children adore.Thank you Team of Trusted babysitter.
+</q>
+    <p class="author">Madhu, Bhopal</p>
+  </div>
+
+  <div class="mySlides">
+    <q>Thank you so much for your wonderful and life-saving services</q>
+    <p class="author">- Vijaya, Bhopal</p>
+  </div>
+
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots/bullets/indicators -->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+          </Body>   
+              <div style="float:right">
+          &copy; 2019 Trusted Sitter.Com| All Rights Reserved | 
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
+</body>
+</html>
